@@ -46,24 +46,6 @@ The Notes App is a simple application for managing notes. It consists of both a 
 2. Connect to your local SQL Server instance.
 3. Execute the SQL script provided in the `database_setup.sql` file to create the necessary database schema and tables.
 
-## Folder Structure
-
-Notes-App/
-│
-├── backend/ # Backend codebase
-│ ├── Controllers/ # ASP.NET Web API controllers
-│ ├── Models/ # Data models
-│ ├── Data/ # DataBase creation File
-│ ├── Migration/ # Migration folder of DataBase
-│ └── appsettings.json # Configuration file
-│
-├── frontend/ # Frontend codebase
-│ ├── index.html # HTML file for displaying notes
-│ ├── style.css # CSS file for styling
-│ └── script.js # JavaScript file for frontend logic
-│
-└── database_setup.sql # SQL script for database setup
-
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
