@@ -53,8 +53,8 @@ Notes-App/
 ├── backend/ # Backend codebase
 │ ├── Controllers/ # ASP.NET Web API controllers
 │ ├── Models/ # Data models
-│ └── Data/ # DataBase creation File
-│ └── Migration/ # Migration folder of DataBase
+│ ├── Data/ # DataBase creation File
+│ ├── Migration/ # Migration folder of DataBase
 │ └── appsettings.json # Configuration file
 │
 ├── frontend/ # Frontend codebase
